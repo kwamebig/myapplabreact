@@ -6,6 +6,11 @@ import Zoltan from '../../resources/pictures/clients/client-1.png';
 import John from '../../resources/pictures/clients/client-2.png';
 import Jane from '../../resources/pictures/clients/client-3.png';
 
+// import React,{Component} from 'react';
+// import OwlCarousel from 'react-owl-carousel';  
+// import 'owl.carousel/dist/assets/owl.carousel.css';  
+// import 'owl.carousel/dist/assets/owl.theme.default.css';
+
 
 function Testimonials(props) {
     return (
@@ -23,8 +28,10 @@ function Testimonials(props) {
                     title="Meet Client Satisfaction by using product"
                     text="The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook."
                     align="left"
-                />           
-                        <div className="row owl-carousel" id="testimonial-carousel">
+                />  
+
+                    {/* <OwlCarousel items={1}  className="owl-theme"  loop  nav  margin={5}>  
+                    <div className="carousel-item"> */}
 
                               <TestimonialsItem
                                 rating="5"
@@ -53,18 +60,19 @@ function Testimonials(props) {
                                 userrole="Editor in New Yorker Magazine"
                                 userpic={Jane}
                             />
-  
+
+                            {/* </div>   
+                            </OwlCarousel>  */}
+                            
                         </div> 
 
                       
                       </div>
                   </div>
   
-              </div>
       </section>
 
     );
 }
 
 export default Testimonials;
-
