@@ -1,0 +1,22 @@
+.build-features .choose-item {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.ultimate-img {
+    background: url(../../resources/pictures/shapes/shape-4.png) center no-repeat; 
+    background-size: cover;
+}
+
+#build h2 {
+  padding-right: 200px;
+}
+
+.ultimate-img {
+    padding: -150px -100px;
+}
+
+.p {
+    padding-right: 200px;
+}

@@ -1,0 +1,57 @@
+.partners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+.container {
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 0;
+}
+
+.container h4 {
+    font-weight: 400;
+    color: #242f51;
+    margin-bottom: 1em;
+    text-align: center !important;
+}
+
+.companies {
+    display: flex;
+    align-items: center;
+
+      @media screen and (max-width: 600px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+}
+
+img {
+   height: 100%;
+    width: 50%;
+    max-height: 60px;
+    object-fit: contain;
+
+@media screen and (max-width: 960px) {
+      max-height: 50px;
+      }
+    }
+  
+.trust {
+    font-size: 16px;
+    line-height: 28px;
+    color: #242f51;
+    font-weight: 400;
+}
+        
+#companies .companies-item img {
+    max-width: 80% !important;
+    display: block;
+}
+        
+#companies h2 {
+    margin-bottom: 50px;
+}

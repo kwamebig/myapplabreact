@@ -1,0 +1,107 @@
+.home {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.home {
+    position: relative;
+    z-index: 1;
+    padding-top: 136px;
+    padding-right: 0px;
+    padding-bottom: 60px;
+    padding-left: 120px;
+    background-color: #fdfdfe;
+    background-position: bottom;
+    background-size: 100% auto;
+    background-image: url(../../resources/pictures/main/background-1.jpg);
+  }
+
+  .home-choice {
+    max-width: 100%;
+    line-height: 1;
+    background-color: #e1eaed;
+    display: inline-block;
+    padding: 10px 48px;
+    border-radius: 17px;
+    position: relative;
+    margin-bottom: 30px;
+    font-size: 14px;
+    width: 362px;
+    height: 35px;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (min-width: 768px) {
+    .home-choice {
+      font-size: 1rem;
+    }
+  } 
+
+  .home-choice-inner {
+    white-space: nowrap;
+    font-size: 18px;
+    line-height: 28px;
+    color: #242f51;
+    font-weight: 400;
+    width: 362px;
+    border-radius: 17px;
+  }
+
+  .home-choice-icon {
+    color: #fff;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 39px;
+    height: 35px;
+    border-radius: 17px;
+    background-color: #feaa25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (max-width: 768px) {
+    .home-buttons .button {
+      text-align: center;
+      display: block;
+      margin-bottom: 15px;
+    }
+  } 
+
+.home-phone {
+    height: auto;
+    width: 95%;
+}
+
+  @media (max-width: 768px) {
+    .home-phone-container {
+      align-items: flex-start;
+      display: flex;
+      justify-content: center;
+    }
+  } 
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 20px;
+}
+  @media (max-width: 768px) {
+    .home-content {
+      align-items: stretch;
+    }
+  }
+  @media (max-width: 1200px) {
+    .home {
+      padding-top: 100px;
+    }
+  } 

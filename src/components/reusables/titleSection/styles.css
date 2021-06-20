@@ -1,0 +1,67 @@
+h2 {
+    font-size: 36px;
+    line-height: 46px;
+    color: #242f51;
+    font-weight: 600;
+}
+
+p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.home h2 {
+    font-size: 60px;
+    margin-bottom: 25px;
+    line-height: 70px;
+    padding-right: 100px; 
+}
+
+.home p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    padding-right: 100px; 
+}
+
+.build p {
+    padding-left: 200px !important;
+}
+
+#choose h2 {
+    padding: 0 350px 0 350px;
+}
+
+.choose-main p {
+    padding: 0 260px 0 260px;
+}
+
+.build-main p {
+    padding-right: 100px;
+}
+
+.pricing-main h2 {
+    padding: 0 260px 0 260px;
+}
+
+.pricing-main p {
+    padding: 0 260px 0 260px;
+}
+
+.faq-main p {
+    padding: 0 260px 0 260px;
+}
+
+/* .download-main p {
+    padding-right: 540px;
+}  */
+

@@ -1,0 +1,23 @@
+.feature-list {
+    padding-top: 15px;
+}
+
+.feature-list .feature-item {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+#features h2 {
+  padding-right: 150px;
+}
+
+#features p {
+  padding-right: 120px;
+}
+
+.feature-img {
+    display: block;
+    max-width: 80%;
+    padding-right: 150px;
+}  

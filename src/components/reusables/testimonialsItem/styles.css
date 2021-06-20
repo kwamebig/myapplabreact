@@ -1,0 +1,37 @@
+.testimonial-bg {
+    height: auto;
+    width: 105%;
+}
+
+#testimonials{
+    position: relative;
+}
+.star-rating{
+    color: #ffcc00;
+    margin: 1rem 0 2rem;
+    font-size: 20px;
+}
+.star-rating.half-rate i:nth-child(5) {
+    color: #242f51;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+}
+.user-pic{
+    width: 50px;
+    margin-right: 2rem;
+}
+.user-name h5{
+    margin-bottom: 2px;
+    font-size: 1.4rem;
+}
+.user-name p{
+    margin-bottom: 0;
+}

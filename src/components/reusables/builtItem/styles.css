@@ -1,0 +1,59 @@
+.choose-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.elipse-info {
+    margin-top: 1rem;
+    margin-left: 0 !important;
+}
+
+.elipse {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    display: flex;
+  }
+  
+  .red {
+    background-color: #f7e6e8;
+  }
+  
+  .blue {
+    background-color: #f3f3fa;
+  }
+  
+  .green {
+    background-color: #e8fdf0;
+  }
+  
+  .orange {
+    background-color: #f7f0d6;
+  }
+  
+  .elipse img {
+    display: block;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+  }
+  
+  .elipse-info {
+    padding: 0 55px 0 20px;
+  }
+
+  .built h3 {
+    padding: 0 100px !important
+  }
+
+  .center {
+    text-align: center;
+}
+
+  .left {
+    text-align: left;
+}
+

@@ -1,0 +1,21 @@
+.jackpots {
+    font-size: 16px !important;
+    line-height: 44px!important;
+    color: #ffffff;
+    font-weight: 700!important;
+  }
+  
+  .horizontal {
+      position: relative;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .horizontal::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 1px;
+      background-color: rgba(185, 185, 184, 0.7);
+      right: 0;
+  }

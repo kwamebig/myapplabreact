@@ -1,0 +1,16 @@
+.integration-img {
+    display: block;
+    max-width: 110%;
+}
+
+#integration .section-heading {
+    margin-top: 7rem;
+}
+
+#integration .main-btn {
+    margin-top: 3rem;
+}
+
+.designed {
+    padding: 120px 70px 0 120px;
+} 
