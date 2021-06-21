@@ -6,10 +6,6 @@ import Zoltan from '../../resources/pictures/clients/client-1.png';
 import John from '../../resources/pictures/clients/client-2.png';
 import Jane from '../../resources/pictures/clients/client-3.png';
 
-// import React,{Component} from 'react';
-// import OwlCarousel from 'react-owl-carousel';  
-// import 'owl.carousel/dist/assets/owl.carousel.css';  
-// import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 
 function Testimonials(props) {

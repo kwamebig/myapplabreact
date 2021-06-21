@@ -14,6 +14,7 @@ import FAQ from './components/faq';
 import DownloadSection from './components/downloadSection';
 import Footer from './components/footer';
 
+
 class App extends React.Component {
   render (){
     return (

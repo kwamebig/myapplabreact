@@ -5,12 +5,18 @@ import TitleSection from '../reusables/titleSection';
 
 class PricesSection extends React.Component {
     
-    constructor() {
-        super();
-        this.state = {range: 1};
-     }
 
       render() {
+
+        function radioOne(){ 
+        document.getElementById("price-1").innerHTML = "$0<sub>/month</sub>";
+        document.getElementById("price-2").innerHTML = "$99<sub>/month</sub>";
+        }
+
+        function radioTwo () {
+        document.getElementById("price-1").innerHTML = "$45<sub>/year</sub>";
+        document.getElementById("price-2").innerHTML = "$777<sub>/year</sub>";
+        }
 
         return (
 
@@ -27,9 +33,9 @@ class PricesSection extends React.Component {
                     <div className="pricing-switcher">
                         <p className="fieldset">
                             <input type="radio" name="duration-1" value="1" id="monthly-1" checked />
-                            <label for="monthly-1" onClick={() => {this.setState({state: {range: 1}})}}>Monthly</label>
+                            <label for="monthly-1" onClick={radioOne}>Monthly</label>
                             <input type="radio" name="duration-1" value="2" id="annually-1" />
-                            <label for="annually-1" onClick={() => {this.setState({state: {range: 2}})}}>Annually</label>
+                            <label for="annually-1" onClick={radioTwo}>Annually</label>
                             <span className="switch"></span></p>
                     </div>
                     
@@ -39,7 +45,7 @@ class PricesSection extends React.Component {
                         <div className="col-lg-4 col-md-6">
                             <div className="table-item is-visible" data-type="monthly">
                                 <div className="table-head">
-                                    <h2 className="price-1">{this.state.range == "1" ? "$0" : "$49"}<span className="per">/month</span></h2>
+                                    <h2 id="price-1">$0<sub>/month</sub></h2>
                                     <h4> Business class</h4>
                                     <p className="intro">For Small teams or office</p>
                                 </div>
@@ -55,7 +61,7 @@ class PricesSection extends React.Component {
                         <div className="col-lg-4 col-md-6">
                             <div className="table-item is-hidden" data-type="annually">
                                 <div className="table-head">
-                                    <h2 className="price-2">{this.state.range === "2" ? "$45" : "$1055"}<span className="per">/month</span></h2>
+                                    <h2 id="price-2">$99<sub>/month</sub></h2>
                                     <h4> Pro Master </h4>
                                     <p className="intro">For Best Oportunities </p>
                                 </div>

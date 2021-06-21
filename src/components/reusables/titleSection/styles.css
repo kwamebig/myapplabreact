@@ -33,7 +33,7 @@ p {
     padding-right: 100px; 
 }
 
-.build p {
+/* .build p {
     padding-left: 200px !important;
 }
 
@@ -59,9 +59,9 @@ p {
 
 .faq-main p {
     padding: 0 260px 0 260px;
-}
+} 
 
-/* .download-main p {
+.download-main p {
     padding-right: 540px;
 }  */
 
