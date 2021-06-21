@@ -11,13 +11,6 @@ function JackpotsSection() {
 
         <section id="jackpot" className="section-space">
           <div className="container">
-              
-              {/* <TitleSection
-                    title="Smart jackpots that you may love this anytime anywhere"
-                    text="The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook."
-                    align="center"
-                    jack="yes"
-                /> */}
                 <div className="row justify-content-center align-items-center">
                   <div className="col-md-6 horizontal section-heading">
                       <h2> Smart jackpots that you may love this anytime anywhere </h2>

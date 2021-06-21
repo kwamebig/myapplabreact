@@ -2,12 +2,10 @@ import './styles.css';
 
 function PricesBlock(props) {
     return (
-                <div className={`table-item is-${props.visibility}`} data-type={props.type}>
-                    <div className="table-head">
-                        <h2 className={`price-${props.id}`}>{props.price}<span className="per">/{props.term}</span></h2>
-                        <h4>{props.name}</h4>
-                        <p className="intro">{props.desc}</p>
-                    </div>
+                <div className="table-head">
+                    <h2 id={`price-${props.id}`}>{props.price}</h2>
+                    <h4>{props.name}</h4>
+                    <p className="intro">{props.desc}</p>
                 </div>
 
     );

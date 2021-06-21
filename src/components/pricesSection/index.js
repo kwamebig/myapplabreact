@@ -2,13 +2,14 @@ import React, { useState } from 'react';
 import './styles.css';
 import Button from '../reusables/button';
 import TitleSection from '../reusables/titleSection';
+import PricesBlock from '../reusables/pricesBlock';
 
 class PricesSection extends React.Component {
     
 
       render() {
 
-        function radioOne(){ 
+        function radioOne() { 
         document.getElementById("price-1").innerHTML = "$0<sub>/month</sub>";
         document.getElementById("price-2").innerHTML = "$99<sub>/month</sub>";
         }
@@ -44,11 +45,13 @@ class PricesSection extends React.Component {
                     
                         <div className="col-lg-4 col-md-6">
                             <div className="table-item is-visible" data-type="monthly">
-                                <div className="table-head">
-                                    <h2 id="price-1">$0<sub>/month</sub></h2>
-                                    <h4> Business class</h4>
-                                    <p className="intro">For Small teams or office</p>
-                                </div>
+
+                            <PricesBlock
+                                price="$0"
+                                name="Business class"
+                                desc="For Small teams or office"
+                                id="1"
+                            />
                                 <ul className="table-content">
                                     <li>Drag Drop Builder</li>
                                     <li>1,000's of Templates</li>
@@ -60,11 +63,13 @@ class PricesSection extends React.Component {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="table-item is-hidden" data-type="annually">
-                                <div className="table-head">
-                                    <h2 id="price-2">$99<sub>/month</sub></h2>
-                                    <h4> Pro Master </h4>
-                                    <p className="intro">For Best Oportunities </p>
-                                </div>
+
+                            <PricesBlock
+                                price="$99"
+                                name="Pro Master"
+                                desc="For Best Oportunities"
+                                id="2"
+                            />
                                 <ul className="table-content">
                                     <li>Drag Drop Builder</li>
                                     <li> 1,000's of Templates </li>
